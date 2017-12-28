@@ -1,0 +1,8 @@
+server:
+  port: 2222
+dubbo:
+  applicationName: dubbo-consumer
+  zookeeperAddress: 127.0.0.1:2181
+  prot: 20881 
+  protocol: zookeeper
+  monitorConfig: registry

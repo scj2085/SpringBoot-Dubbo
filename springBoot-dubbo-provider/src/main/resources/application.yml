@@ -1,0 +1,6 @@
+dubbo:
+  applicationName: provider
+  zookeeperAddress: 127.0.0.1:2181
+  prot: 20880 
+  protocol: zookeeper
+  monitorConfig: registry
